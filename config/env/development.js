@@ -4,7 +4,7 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://root:abc123@ds043002.mongolab.com:43002/yasuweb' + '/mean-dev',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://root:abc123@ds043002.mongolab.com:43002/yasuweb',
     options: {
       user: '',
       pass: ''
